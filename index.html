@@ -10,13 +10,13 @@
     <script>
           function convertMarlaToSquareFeet() {
             // Get the value of Marla input
-            var marla = parseFloat(document.getElementById("yards").value);
+            var yards = parseFloat(document.getElementById("yards").value);
             
             // Conversion factor: 1 Marla is equal to 225 square feet
             var squareFeet = yards * 9;
             
             // Display the result on the screen
-            document.getElementById("result").innerHTML = marla + " Marla is equal to " + squareFeet + " Square Feet.";
+            document.getElementById("result").innerHTML = yards + " yards is equal to " + squareFeet + " Square Feet.";
         }
 
 
